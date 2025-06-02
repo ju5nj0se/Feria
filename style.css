@@ -34,3 +34,73 @@ footer {
 }
 
 
+
+
+
+
+
+/*-----------------------------SHEDULE PAGE---------------------------------*/
+/*------------section-1------------------*/
+.container-talks{
+    margin-top: 20px;
+}
+
+
+
+.talks__title, .activities__title{
+    text-align: center;
+    font-size: 50px;
+    color: var(--header-color);
+}
+
+.rows__card, .card{
+    background-color: rgb(233, 233, 233) ;
+    border-radius: 7px;
+    margin: 20px;
+    width: 350px;
+    padding: 20px;
+    box-shadow: -5px 5px 5px var(--header-color);
+    color: var(--header-color);
+    /*Aqui le decimos al navegador que cuando la propiedad bottom cambie, lo haga de forma animada por 0.5s*/
+    transition: bottom 0.5s ease-out;
+    position: relative; 
+    bottom: 0;
+    
+}
+
+.rows__card:hover, .card:hover{
+    bottom: 20px;
+    
+}
+
+.cards__rows{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    flex-direction: row;
+    
+}
+
+.rows__card{
+    padding: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.card__img{
+    background-color: aqua;
+    height: 300px;
+}
+
+.card__img > img{
+    width: 100%;
+    height: 100%;
+}
+
+.talk-time, .lecturer{
+    color: var(--footer-color);
+}
+
+/*----------section-2-----------*/
+
