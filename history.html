@@ -1,73 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="reset.css  ">
-  <link rel="stylesheet" href="style.css">
-  <title>Historia</title>
+  <title>Bello</title>
 </head>
 <body>
-  <header>
-    <a href="index.html"><img src="imgs/logo.png" alt="img_logo"></a>
-    
-    <nav>
-        <a href="index.html">Inicio</a>
-        <a href="schedule.html">Horarios</a>
-        <a href="food.html">Comida</a>
-        <a href="crafts.html">Artesanias</a>
-        <a href="history.html">Historia</a>
-    </nav>
-  </header>
+
+  <!-- Sección principal con fondo y estilo -->
   <section style="background-color: #E3D095; padding: 20px; border-radius: 10px;">
-    <h1>Historia de Bello</h1>
+    <h1>Bello</h1>
 
-      <fieldset style="border: 2px solid #7965C1; padding: 15px; margin-bottom: 20px;">
-        <legend>Historia</legend>
+    <!-- Fieldset que agrupa la historia de Bello -->
+    <fieldset style="border: 2px solid #7965C1; padding: 15px; margin-bottom: 20px;">
+      <legend>Historia</legend>
 
-        <div id="opciones" style="border: 1px solid #7956C1; margin: 5px 0; padding: 5px;">
-            <p>Bello, Antioquia, Colombia, fue fundada por Gaspar de Rodas en 1576 y originalmente se llamaba Hato Viejo. Fue renombrada Bello en 1883 en honor al literato Andrés Bello. Inicialmente un corregimiento, se convirtió en municipio en 1913. Es conocida como la "Ciudad de Artistas" y el municipio con mayor proyección en el sector inmobiliario e industrial del Valle de Aburrá.</p>
-            <p>El Hato Viejo, origen de Bello: En 1576, Gaspar de Rodas solicitó tierras a la corona española para crear hatos de ganado y cultivos, dando origen al Hato Viejo, que luego sería Bello.</p>
-            <p>El cambio de nombre: En 1883, un grupo de pobladores solicitó cambiar el nombre de Hato Viejo a Bello, en homenaje al académico y maestro venezolano Andrés Bello.</p>
-            <p>El municipio de Bello: Bello fue erigido como municipio en 1913, mediante una ordenanza de la Gobernación de Antioquia.</p>
-            <p>La ciudad de los artistas: Bello es reconocida por su creciente talento cultural en diversas expresiones artísticas.</p>
-            <p>La importancia económica: Bello es el municipio del Valle de Aburrá con mayor proyección en el sector inmobiliario e industrial y la ejecución de grandes proyectos de infraestructura.</p>
-            <p>La historia de las obreras: Bello fue sede de una importante huelga de obreras textiles en 1925, que logró mejoras en las condiciones laborales, según la Biblioteca Publica Piloto.</p>
+      <!-- Div que contiene la información histórica -->
+      <div id="opciones" style="border: 1px solid #7956C1; margin: 5px 0; padding: 5px;">
+          <p>Bello, Antioquia, Colombia, fue fundada por Gaspar de Rodas en 1576 y originalmente se llamaba Hato Viejo. Fue renombrada Bello en 1883 en honor al literato Andrés Bello. Inicialmente un corregimiento, se convirtió en municipio en 1913. Es conocida como la "Ciudad de Artistas" y el municipio con mayor proyección en el sector inmobiliario e industrial del Valle de Aburrá.</p>
+          <p>El Hato Viejo, origen de Bello: En 1576, Gaspar de Rodas solicitó tierras a la corona española para crear hatos de ganado y cultivos, dando origen al Hato Viejo, que luego sería Bello.</p>
+          <p>El cambio de nombre: En 1883, un grupo de pobladores solicitó cambiar el nombre de Hato Viejo a Bello, en homenaje al académico y maestro venezolano Andrés Bello.</p>
+          <p>El municipio de Bello: Bello fue erigido como municipio en 1913, mediante una ordenanza de la Gobernación de Antioquia.</p>
+          <p>La ciudad de los artistas: Bello es reconocida por su creciente talento cultural en diversas expresiones artísticas.</p>
+          <p>La importancia económica: Bello es el municipio del Valle de Aburrá con mayor proyección en el sector inmobiliario e industrial y la ejecución de grandes proyectos de infraestructura.</p>
+          <p>La historia de las obreras: Bello fue sede de una importante huelga de obreras textiles en 1925, que logró mejoras en las condiciones laborales, según la Biblioteca Publica Piloto.</p>
 
-            <h4>Otras menciones:</h4>
+          <h4>Otras menciones:</h4>
 
-            <p>En el siglo XVII, Bello contaba con rancherías y viceparroquias, y una población de mil habitantes.</p>
-            <p>Bello ha sido receptor en la naciente industria textil.</p>
-            <p>En 2010, fue una de las subsedes de los IX Juegos Suramericanos.</p>
-            <img src="./img_bello/bello_foto.jpg">
+          <p>En el siglo XVII, Bello contaba con rancherías y viceparroquias, y una población de mil habitantes.</p>
+          <p>Bello ha sido receptor en la naciente industria textil.</p>
+          <p>En 2010, fue una de las subsedes de los IX Juegos Suramericanos.</p>
+          <img src="./img_bello/bello_foto.jpg" alt="Foto de Bello">
 
-        </div>
-            <label>¿Te gustaría recibir noticias?</label><br>
-            <input type="radio" id="si" name="noticias" value="si">
-            <label for="si">Sí</label><br>
-            <input type="radio" id="no" name="noticias" value="no">
-            <label for="no">No</label><br><br>
+      </div>
 
-            <label>Selecciona tus intereses:</label><br>
-            <input type="checkbox" id="arte" name="intereses" value="arte">
-            <label for="arte">Arte</label><br>
-            <input type="checkbox" id="tecnologia" name="intereses" value="tecnologia">
-            <label for="tecnologia">Tecnología</label><br>
-            <input type="checkbox" id="naturaleza" name="intereses" value="naturaleza">
-            <label for="naturaleza">Naturaleza</label><br><br>
-      </fieldset>
+      <!-- Pregunta sobre el interés en recibir noticias -->
+      <label>¿Te gustaría recibir noticias?</label><br>
+      <input type="radio" id="si" name="noticias" value="si">
+      <label for="si">Sí</label><br>
+      <input type="radio" id="no" name="noticias" value="no">
+      <label for="no">No</label><br><br>
 
-      <input type="submit" value="Enviar"
-             style="background-color: #4682b4; color: white; padding: 10px; border: none; border-radius: 5px;">
-      <input type="reset" value="Reiniciar"
-             style="background-color: #dcdcdc; padding: 10px; border: none; border-radius: 5px; margin-left: 10px;">
-    </form>
+      <!-- Selección de intereses -->
+      <label>Selecciona tus intereses:</label><br>
+      <input type="checkbox" id="arte" name="intereses" value="arte">
+      <label for="arte">Arte</label><br>
+      <input type="checkbox" id="tecnologia" name="intereses" value="tecnologia">
+      <label for="tecnologia">Tecnología</label><br>
+      <input type="checkbox" id="naturaleza" name="intereses" value="naturaleza">
+      <label for="naturaleza">Naturaleza</label><br><br>
+    </fieldset>
+
+    <!-- Botones de enviar y reiniciar -->
+    <input type="submit" value="Enviar"
+           style="background-color: #4682b4; color: white; padding: 10px; border: none; border-radius: 5px;">
+    <input type="reset" value="Reiniciar"
+           style="background-color: #dcdcdc; padding: 10px; border: none; border-radius: 5px; margin-left: 10px;">
   </section>
 
-  <footer>
-    <p> Feria. </p>
-    <p> © Todos los derechos de esta pagina son reservados. </p>
-    <p> Pagina elaborada por StarDevs, coders RIWI. </p>
-  </footer>
 </body>
 </html>
